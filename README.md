@@ -2,6 +2,7 @@
 Update cookie named lastActivity to keep track if user is active on current tab.
 
 # usage
+
 $(document).trackUserActivity({     
         // user is considered idle after this many milli seconds. 5 minutes default
         inactivity: 300000,
